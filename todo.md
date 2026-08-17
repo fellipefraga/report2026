@@ -20,10 +20,12 @@
 - [x] Criar exportações de slides aprovados nos formatos JSON e Markdown.
 - [x] Configurar feedback de ações, estados de carregamento, confirmações de exclusão e empty states.
 - [x] Aplicar a identidade visual Stellar Gaming em toda a interface, com design responsivo e acessível.
-- [ ] Escrever e executar testes unitários para regras editoriais e procedimentos de dados.
-- [ ] Verificar visualmente as telas principais em desktop e mobile e corrigir falhas encontradas.
-- [ ] Conectar e enviar a implementação ao repositório GitHub fellipefraga/report2026.
+- [x] Escrever e executar testes unitários para regras editoriais e procedimentos de dados.
+- [x] Verificar visualmente as telas principais em desktop e mobile e corrigir falhas encontradas.
+- [x] Conectar e enviar a implementação ao repositório GitHub fellipefraga/report2026.
 - [x] Criar o checkpoint final após revisar o arquivo todo.md e disponibilizar a versão do projeto.
 - [x] Adicionar filtros por busca, tipo e status à biblioteca de fontes.
 - [x] Explicitar o fluxo seguro da credencial Claude sem persistir segredo no banco ou no navegador.
 - [x] Padronizar feedbacks de erro nas ações críticas de slides, configurações e exportações.
+- [x] Adicionar testes de sucesso e erro para procedimentos tRPC editoriais críticos.
+- [x] Verificar em mobile as demais telas principais do relatório editorial.
