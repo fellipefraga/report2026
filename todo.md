@@ -1,0 +1,29 @@
+# Project TODO
+
+- [x] Definir o modelo de dados para fontes, slides, versões, sumário, configurações e exportações.
+- [x] Criar a estrutura inicial de exatamente 81 slides, organizada por seções editoriais.
+- [x] Aplicar a migração de banco de dados e validar as tabelas e relações criadas.
+- [x] Implementar o controle de acesso com Manus OAuth e validar a restrição a usuários Stellar autorizados.
+- [x] Criar procedimentos para listar, criar, editar e excluir fontes de pesquisa.
+- [x] Criar procedimento de upload de arquivos para fontes e persistir os metadados em storage.
+- [x] Implementar classificação de fontes por tema, seção e status de processamento.
+- [x] Implementar a integração server-side com Claude com modelo, temperatura e prompt base configuráveis.
+- [x] Criar fluxo de processamento de fonte para extrair insights, classificar conteúdo e sugerir slides de destino.
+- [x] Criar procedimentos de atualização para slides, notas editoriais, status e fontes vinculadas, preservando o catálogo fixo de 81 slides.
+- [x] Implementar auto-save dos conteúdos de slides após dois segundos de inatividade.
+- [x] Persistir e recuperar o histórico de versões de cada slide.
+- [x] Criar o dashboard com métricas de slides concluídos, pendentes, em revisão e atividade recente.
+- [x] Criar a página de gerenciamento de fontes com upload, filtros, status e insights processados.
+- [x] Criar o editor de slides com título, conteúdo, notas, status, fontes e geração assistida.
+- [x] Criar o sumário interativo com os 81 slides, seções, progresso e navegação direta.
+- [x] Criar a página de configurações para a credencial protegida do Claude, modelo, temperatura e prompt base.
+- [x] Criar exportações de slides aprovados nos formatos JSON e Markdown.
+- [x] Configurar feedback de ações, estados de carregamento, confirmações de exclusão e empty states.
+- [x] Aplicar a identidade visual Stellar Gaming em toda a interface, com design responsivo e acessível.
+- [ ] Escrever e executar testes unitários para regras editoriais e procedimentos de dados.
+- [ ] Verificar visualmente as telas principais em desktop e mobile e corrigir falhas encontradas.
+- [ ] Conectar e enviar a implementação ao repositório GitHub fellipefraga/report2026.
+- [x] Criar o checkpoint final após revisar o arquivo todo.md e disponibilizar a versão do projeto.
+- [x] Adicionar filtros por busca, tipo e status à biblioteca de fontes.
+- [x] Explicitar o fluxo seguro da credencial Claude sem persistir segredo no banco ou no navegador.
+- [x] Padronizar feedbacks de erro nas ações críticas de slides, configurações e exportações.
